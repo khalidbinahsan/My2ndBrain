@@ -1,4 +1,4 @@
-## How to install vue router
+## How to install vue router?
 First of all run this command on your project
 ```bash
 npm install vue-router@4
@@ -18,7 +18,6 @@ const routes = [
         path: '/',
         name: 'home',
         component: Home
-
     },
     {
         path: '/about',
@@ -75,3 +74,22 @@ and you can display it anywhere by `<router-view></router-view>` like this
 ```html
 <router-view></router-view>
 ```
+
+You can give a name of your `<router-view></router-view>` like this
+```html
+<router-view name="sidebar"></router-view>
+```
+
+In this case you should make some changes on your **router** Ensure that the **component** is plural here **components**
+```javascript
+{
+   path: '/blog',
+   name: 'blog',
+   components: {
+        default: Blog,
+        sidebar: rightSidebar
+    }
+}
+```
+
+## How to create the dynamic router?
