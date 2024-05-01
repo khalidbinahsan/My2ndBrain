@@ -1,22 +1,32 @@
 {
   "main": {
-    "id": "6630c5dbf9247017",
+    "id": "598e5e8b5d07c7e9",
     "type": "split",
     "children": [
       {
-        "id": "46f135020f4a03c8",
+        "id": "2a9fc2d2e56b15f8",
         "type": "tabs",
         "children": [
           {
-            "id": "96163d6a5f4882ba",
+            "id": "58b19df7792cc828",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS Notes/Promise() object.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "241b74a905c687ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9534dd884c7da840",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -25,15 +35,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "491c693873fb8f40",
+    "id": "f465c0d298f5360b",
     "type": "split",
     "children": [
       {
-        "id": "10099b27435b7922",
+        "id": "aa8454bbf6ebdedd",
         "type": "tabs",
         "children": [
           {
-            "id": "ff8faac240eb9465",
+            "id": "06c7cad4e009fe62",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +53,7 @@
             }
           },
           {
-            "id": "b22aaf7000d4caca",
+            "id": "4ce579f374df10f4",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +68,7 @@
             }
           },
           {
-            "id": "5d2dc0274f7a1cd0",
+            "id": "9c92315583a50bf3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +82,19 @@
     "width": 300
   },
   "right": {
-    "id": "85c294f349698ca7",
+    "id": "78d87ba9c69370e2",
     "type": "split",
     "children": [
       {
-        "id": "8aa59a459e6ec791",
+        "id": "a700656d37438c75",
         "type": "tabs",
         "children": [
           {
-            "id": "1ece4256c6c002a6",
+            "id": "d6a4017cef6b3144",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS Notes/Promise() object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +106,18 @@
             }
           },
           {
-            "id": "de1db52fff5dbb82",
+            "id": "a9dea2c8882f1b2a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS Notes/Promise() object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "e2009aca52815300",
+            "id": "796de4e7107d9768",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +128,11 @@
             }
           },
           {
-            "id": "1b870b8282139a3b",
+            "id": "60563eeae3ee04be",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JS Notes/Promise() object.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,18 +152,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "96163d6a5f4882ba",
+  "active": "58b19df7792cc828",
   "lastOpenFiles": [
-    "JS Notes/Promise() object.md",
-    "JS Notes/Welcome.md",
-    "Vue.js Notes/Install Vue Router.md",
-    "JS Notes",
-    "WordPress Development/Redirect to checkout page.md",
-    "WordPress Development/Footer latest posts.md",
-    "WordPress Development/Post Categories.md",
-    "WordPress Development/Custom Breadcrumb.md",
-    "WordPress Development/Change add to cart Button.md",
-    "WordPress Development/Welcome.md",
-    "WordPress Development"
+    "Welcome.md"
   ]
 }
