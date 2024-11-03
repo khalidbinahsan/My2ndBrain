@@ -30,3 +30,63 @@ const addItem = () => {
 }
 </script>
 ```
+
+## computed()
+**computed()** property function is called every time when anything is changes on the computed variable. Here is some example.....
+
+```js
+<script setup>
+import { computed } from 'vue';
+const props = defineProps([
+   'label', 'modelValue', 'value' 
+])
+const emit = defineEmits(['update:modelValue'])
+const radioValue = computed({
+    get: () => props.modelValue,
+    set: (value) => emit('update:modelValue', value)
+})
+</script>
+
+<template>
+<input type="radio" :value="value" v-model="radioValue" />
+<label class="ml-2">{{ label }}</label>
+</template>
+
+<style scoped>
+
+</style>
+```
+
+## provide() & inject()
+
+To props drilling with child component, the **provide()** and the **inject()** properties are very effective and easy way.. look at the code
+**App.vue** file
+```js
+<script setup>
+import {reactive, provide} form 'vue'
+const course = reactive({
+    name: 'Vue 3',
+    price: 299
+})
+provide('course', course)
+</script>
+```
+
+Now from your component file you can easily access to the data.. 
+**ComponentB.vue** file
+```js
+<script setup>
+import {inject} from 'vue'
+const course = inject('course')
+</script>
+
+<template>
+<p>
+    Course Name is Component B is: {{ course.name }}
+</p>
+</template>
+
+<style scoped>
+
+</style>
+```
