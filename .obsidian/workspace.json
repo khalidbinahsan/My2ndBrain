@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Push Files.md",
+                "file": "WordPress Development/Widget activate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Push Files"
+              "title": "Widget activate"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -164,6 +165,13 @@
   },
   "active": "af01d1c2e7d9a4e4",
   "lastOpenFiles": [
+    "WordPress Development/Checkout button change woocommerce.md",
+    "WordPress Development/Widget activate.md",
+    "WordPress Development/Checkout on single product page.md",
+    "WordPress Development/Allow only one order in woocommerce.md",
+    "WordPress Development/Avoid duplicate product loop.md",
+    "WordPress Development/Woocommerce custom badge for Elementor loop.md",
+    "Git/Push Files.md",
     "WordPress Development/Product Attribute description.md",
     "WordPress Development/Woocommerce Product Tab Rename.md",
     "Laravel Notes/Laravel Session.md",
@@ -183,13 +191,6 @@
     "Laravel Notes/Controller.md",
     "Laravel Notes/Laravel Command.md",
     "Laravel Notes/Laravel Query Builder.md",
-    "Laravel Notes/Laravel Migration.md",
-    "WordPress Development/Custom Attribute on Cart - Woocommerce.md",
-    "Git/Push Files.md",
-    "PHP Notes/Codemama Problem Solving.md",
-    "Laravel Notes/DB table Relationship Constraint.md",
-    "WordPress Development/Elementor Pro Custom Add to Cart.md",
-    "Tailwind Notes/Install tailwind.md",
     "Git",
     "Laravel Notes",
     "SQL Query",
