@@ -1,4 +1,4 @@
-If you widget options is not activate in your appearance, use this code into the  `functions.php`
+If your widget options is not activate in your appearance, use this code into the  `functions.php`
 ```php
 function hello_elementor_widgets_init() {
     register_sidebar( array(
