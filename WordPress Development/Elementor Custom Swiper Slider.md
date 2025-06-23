@@ -1,32 +1,36 @@
 add this code into the `functions.php` and replace the template ids with your one.
 ```php
-add_shortcode('custom_elementor_slider', function() {
-    // Replace these with your actual Elementor template IDs
-    $template_ids = [211, 214, 302, 312];
+add_shortcode('custom_elementor_slider', function($atts) {
+    // Define default attributes
+    $atts = shortcode_atts([
+        'template_ids' => '', // comma-separated
+        'class' => 'custom-swiper',
+    ], $atts);
 
-    // Start output buffering
+    // Convert comma-separated IDs to an array and sanitize
+    $template_ids = array_map('absint', explode(',', $atts['template_ids']));
+    $wrapper_class = sanitize_html_class($atts['class']);
+
     ob_start();
     ?>
-    <div class="custom-swiper swiper">
+    <div class="<?php echo esc_attr($wrapper_class); ?> swiper">
         <div class="swiper-wrapper">
             <?php foreach ($template_ids as $id): ?>
                 <div class="swiper-slide <?php echo esc_attr('slider-is-' . $id); ?>">
-                    <?php
-                    // Output the Elementor template content
-                    echo Elementor\Plugin::instance()->frontend->get_builder_content($id);
-                    ?>
+                    <?php echo Elementor\Plugin::instance()->frontend->get_builder_content($id); ?>
                 </div>
             <?php endforeach; ?>
         </div>
 
-        <!-- Optional: Pagination (you can also add navigation arrows if needed) -->
+        <!-- Optional: Pagination -->
         <div class="swiper-pagination"></div>
     </div>
     <?php
-    // Return the buffered content
     return ob_get_clean();
 });
 ```
+So your shortcode would be something like this `[custom_elementor_slider template_ids="211,214,302" class="custom-swiper"]` 
+
 Some of the swiper slider js here..
 ```js
 <script>
@@ -44,7 +48,6 @@ Some of the swiper slider js here..
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-      mousewheel: true,
     });
 </script>
 ```
