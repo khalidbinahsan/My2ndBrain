@@ -33,7 +33,6 @@ So your shortcode would be something like this `[custom_elementor_slider templat
 
 Some of the swiper slider js here..
 ```js
-<script>
   document.addEventListener("DOMContentLoaded", function () {
     const swiper = new Swiper('.custom-swiper', {
       speed: 1000,
@@ -49,7 +48,6 @@ Some of the swiper slider js here..
         prevEl: '.swiper-button-prev',
       },
     });
-</script>
 ```
 
 Make sure it's loaded properly
