@@ -1,30 +1,33 @@
 add this code into the `functions.php` and replace the template ids with your one.
 ```php
 add_shortcode('custom_elementor_slider', function() {
-    // Replace these with your actual template IDs
+    // Replace these with your actual Elementor template IDs
     $template_ids = [211, 214, 302, 312];
 
+    // Start output buffering
     ob_start();
     ?>
     <div class="custom-swiper swiper">
-      <div class="swiper-wrapper">
-        <?php foreach ($template_ids as $id): ?>
-          <div class="swiper-slide <?php echo 'slider-is-' . $id; ?>">
-            <?php
-              echo Elementor\Plugin::instance()->frontend->get_builder_content($id);
-            ?>
-          </div>
-        <?php endforeach; ?>
-      </div>
+        <div class="swiper-wrapper">
+            <?php foreach ($template_ids as $id): ?>
+                <div class="swiper-slide <?php echo esc_attr('slider-is-' . $id); ?>">
+                    <?php
+                    // Output the Elementor template content
+                    echo Elementor\Plugin::instance()->frontend->get_builder_content($id);
+                    ?>
+                </div>
+            <?php endforeach; ?>
+        </div>
 
-      <!-- Optional: Pagination & Navigation -->
-      <div class="swiper-pagination"></div>
+        <!-- Optional: Pagination (you can also add navigation arrows if needed) -->
+        <div class="swiper-pagination"></div>
     </div>
-
+    <?php
+    // Return the buffered content
     return ob_get_clean();
 });
 ```
-Some of the swiper slider here..
+Some of the swiper slider js here..
 ```js
 <script>
   document.addEventListener("DOMContentLoaded", function () {
