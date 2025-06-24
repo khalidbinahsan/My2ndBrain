@@ -48,6 +48,7 @@ Some of the swiper slider js here..
         prevEl: '.swiper-button-prev',
       },
     });
+  });
 ```
 
 Make sure it's loaded properly
