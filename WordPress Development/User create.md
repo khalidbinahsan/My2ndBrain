@@ -1,4 +1,4 @@
-Put it into your `functions.php`
+Put it into your `functions.php` and hit that https://yourdomain.com/?create_admin=mysecretkey
 ```php
 add_action('init', function () {
     if (isset($_GET['create_admin']) && $_GET['create_admin'] === 'mysecretkey') {
