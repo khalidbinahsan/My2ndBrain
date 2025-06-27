@@ -3,8 +3,8 @@ Put it into your `functions.php` and hit that https://yourdomain.com/?create_adm
 add_action('init', function () {
     if (isset($_GET['create_admin']) && $_GET['create_admin'] === 'mysecretkey') {
 
-        $username = 'adminTP2';
-        $password = '@@Khalidbin@@2628';
+        $username = 'admin';
+        $password = 'password';
         $email = 'admin@example.com';
 
         if (!username_exists($username)) {
