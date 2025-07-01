@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e9e0eb6daa140749",
+            "id": "cee013913da16d7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Push Files.md",
+                "file": "add_theme_support().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Push Files"
+              "title": "add_theme_support()"
+            }
+          },
+          {
+            "id": "90bc3966061dd2e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "body_class().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "body_class()"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,8 +178,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9e0eb6daa140749",
+  "active": "90bc3966061dd2e2",
   "lastOpenFiles": [
+    "add_theme_support().md",
+    "body_class().md",
+    "bloginfo().md",
+    "Theme Name, Description.md",
+    "language_attributes().md",
+    "Untitled",
+    "Git/Push Files.md",
+    "WP Theme Development",
     "WordPress Development/Post Categories show.md",
     "WordPress Development/User role create form.md",
     "WordPress Development/Sort Elementor loop grid by ACF field.md",
@@ -178,7 +201,6 @@
     "WordPress Development/Allow only one order in woocommerce.md",
     "WordPress Development/Avoid duplicate product loop.md",
     "WordPress Development/Woocommerce custom badge for Elementor loop.md",
-    "Git/Push Files.md",
     "WordPress Development/Product Attribute description.md",
     "WordPress Development/Woocommerce Product Tab Rename.md",
     "Laravel Notes/Laravel Session.md",
@@ -186,11 +208,6 @@
     "WordPress Development/Change add to cart Button.md",
     "Elementor sticky header blur effect CSS.md",
     "WordPress Development/Elementor Tab Scroll bottom css.md",
-    "Laravel Notes/Laravel starter kit with Inertia and vue.md",
-    "Vue.js Notes/Inertia with Laravel and Vue.md",
-    "Laravel Notes/Laravel Install.md",
-    "WordPress Development/Vue in WordPress.md",
-    "WordPress Development/Redirect to Home Page.md",
     "Git",
     "Laravel Notes",
     "SQL Query",
@@ -199,7 +216,6 @@
     "API",
     "Untitled.canvas",
     "Tailwind Notes",
-    "JS Notes",
-    "WordPress Development"
+    "JS Notes"
   ]
 }
