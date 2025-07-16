@@ -1,8 +1,8 @@
-Recommended attribute for Background Image
+To improve the LCP issues this recommended attribute for Background Image
 ```html
 <img 
-  src="https://newtivedesign.com/wp-content/uploads/2025/07/web-hero-decorative.jpg" 
-  alt="Inspired Interiors - Newtive Design"
+  src="https://yourdomain.com/wp-content/uploads/2025/07/web-hero-decorative.jpg" 
+  alt="Hero Background"
   fetchpriority="high"
   decoding="async"
   loading="eager"
