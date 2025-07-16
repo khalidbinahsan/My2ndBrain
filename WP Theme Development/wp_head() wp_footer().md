@@ -1,4 +1,4 @@
-Add this function `body_class()` in body to load the WP dynamic classes
+Add this `wp_head()` in the html head to load the WP head and add `wp_footer()` before of the end of body tag to load WP footer
 ```php
 <?php
 /*
@@ -15,7 +15,7 @@ Add this function `body_class()` in body to load the WP dynamic classes
 <body <?php body_class(); ?>>
    
 
-<?php wp_footer(); ?>
+    <?php wp_footer(); ?>
 </body>
 </html>
 ```

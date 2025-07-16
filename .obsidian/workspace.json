@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cee013913da16d7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "add_theme_support().md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "add_theme_support()"
-            }
-          },
-          {
             "id": "90bc3966061dd2e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "body_class().md",
+                "file": "WordPress Development/Pagespeed LCP for background image.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "body_class()"
+              "title": "Pagespeed LCP for background image"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 239.5
   },
   "right": {
     "id": "85c294f349698ca7",
@@ -180,6 +165,19 @@
   },
   "active": "90bc3966061dd2e2",
   "lastOpenFiles": [
+    "WordPress Development/WP Login Registration & logout redirect.md",
+    "WordPress Development/Pagespeed LCP for background image.md",
+    "WordPress Development/WooCommerce Breadcrumb.md",
+    "WordPress Development/REST API Subscription data woocommerce.md",
+    "WordPress Development/Get custom field value.md",
+    "Untitled.md",
+    "WordPress Development/Scroll To Top.md",
+    "WP Theme Development/Theme Name, Description.md",
+    "WP Theme Development/language_attributes().md",
+    "WP Theme Development/add_theme_support().md",
+    "WP Theme Development/bloginfo().md",
+    "WP Theme Development/wp_head() wp_footer().md",
+    "WP Theme Development/body_class().md",
     "add_theme_support().md",
     "body_class().md",
     "bloginfo().md",
@@ -195,19 +193,6 @@
     "WordPress Development/Post tags showing.md",
     "WordPress Development/Restrict user to checkout.md",
     "WordPress Development/VAT validation API.md",
-    "WordPress Development/Widget activate.md",
-    "WordPress Development/Checkout button change woocommerce.md",
-    "WordPress Development/Checkout on single product page.md",
-    "WordPress Development/Allow only one order in woocommerce.md",
-    "WordPress Development/Avoid duplicate product loop.md",
-    "WordPress Development/Woocommerce custom badge for Elementor loop.md",
-    "WordPress Development/Product Attribute description.md",
-    "WordPress Development/Woocommerce Product Tab Rename.md",
-    "Laravel Notes/Laravel Session.md",
-    "WordPress Development/Add to cart icon shortcode Elementor.md",
-    "WordPress Development/Change add to cart Button.md",
-    "Elementor sticky header blur effect CSS.md",
-    "WordPress Development/Elementor Tab Scroll bottom css.md",
     "Git",
     "Laravel Notes",
     "SQL Query",
