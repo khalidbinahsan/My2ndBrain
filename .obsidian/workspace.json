@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WordPress Development/Pagespeed LCP for background image.md",
+                "file": "WordPress Development/New api.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pagespeed LCP for background image"
+              "title": "New api"
             }
           }
         ]
@@ -165,7 +165,12 @@
   },
   "active": "90bc3966061dd2e2",
   "lastOpenFiles": [
+    "WordPress Development/WP Debug.md",
+    "WordPress Development/New api.md",
+    "WordPress Development/Woocommerce Subscriptions cancel.md",
+    "WordPress Development/User Registration & Membership CSS.md",
     "WordPress Development/WP Login Registration & logout redirect.md",
+    "WordPress Development/Password hide show icon.md",
     "WordPress Development/Pagespeed LCP for background image.md",
     "WordPress Development/WooCommerce Breadcrumb.md",
     "WordPress Development/REST API Subscription data woocommerce.md",
@@ -188,11 +193,6 @@
     "WP Theme Development",
     "WordPress Development/Post Categories show.md",
     "WordPress Development/User role create form.md",
-    "WordPress Development/Sort Elementor loop grid by ACF field.md",
-    "WordPress Development/Sort post in admin dashboard.md",
-    "WordPress Development/Post tags showing.md",
-    "WordPress Development/Restrict user to checkout.md",
-    "WordPress Development/VAT validation API.md",
     "Git",
     "Laravel Notes",
     "SQL Query",
