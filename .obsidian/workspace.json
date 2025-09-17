@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WordPress Development/REST Api GET data (Authorize).md",
+                "file": "WordPress Development/Elementor File Input field.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "REST Api GET data (Authorize)"
+              "title": "Elementor File Input field"
             }
           }
         ]
@@ -155,6 +155,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -165,8 +166,21 @@
   },
   "active": "90bc3966061dd2e2",
   "lastOpenFiles": [
-    "WordPress Development/REST API Subscription data woocommerce.md",
+    "WordPress Development/Disable auto update.md",
+    "WordPress Development/Elementor File Input field.md",
+    "WordPress Development/ACF Icon picker.md",
+    "WordPress Development/Elementor Tab active js code.md",
+    "WordPress Development/Button Hover Effect.md",
+    "WordPress Development/Previous Next post.md",
+    "WP Theme Development/WP enqueue style.md",
+    "WP Theme Development/body_class().md",
+    "WP Theme Development/wp_head() wp_footer().md",
+    "WP Theme Development/add_theme_support().md",
+    "WP Theme Development/bloginfo().md",
+    "WP Theme Development/language_attributes().md",
+    "WP Theme Development/Theme Name, Description.md",
     "WordPress Development/REST Api GET data (Authorize).md",
+    "WordPress Development/REST API Subscription data woocommerce.md",
     "WordPress Development/New api.md",
     "WordPress Development/WP Debug.md",
     "WordPress Development/Woocommerce Subscriptions cancel.md",
@@ -178,21 +192,8 @@
     "WordPress Development/Get custom field value.md",
     "Untitled.md",
     "WordPress Development/Scroll To Top.md",
-    "WP Theme Development/Theme Name, Description.md",
-    "WP Theme Development/language_attributes().md",
-    "WP Theme Development/add_theme_support().md",
-    "WP Theme Development/bloginfo().md",
-    "WP Theme Development/wp_head() wp_footer().md",
-    "WP Theme Development/body_class().md",
-    "add_theme_support().md",
-    "body_class().md",
-    "bloginfo().md",
-    "Theme Name, Description.md",
-    "language_attributes().md",
     "Untitled",
-    "Git/Push Files.md",
     "WP Theme Development",
-    "WordPress Development/Post Categories show.md",
     "Git",
     "Laravel Notes",
     "SQL Query",
