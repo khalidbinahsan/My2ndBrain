@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WordPress Development/Elementor File Input field.md",
+                "file": "Laravel Notes/Install Inertia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Elementor File Input field"
+              "title": "Install Inertia"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 363.5
   },
   "right": {
     "id": "85c294f349698ca7",
@@ -166,10 +166,12 @@
   },
   "active": "90bc3966061dd2e2",
   "lastOpenFiles": [
-    "WordPress Development/Disable auto update.md",
-    "WordPress Development/Elementor File Input field.md",
-    "WordPress Development/ACF Icon picker.md",
+    "WordPress Development/WP Debug.md",
+    "Laravel Notes/Install Inertia.md",
     "WordPress Development/Elementor Tab active js code.md",
+    "WordPress Development/Elementor File Input field.md",
+    "WordPress Development/Disable auto update.md",
+    "WordPress Development/ACF Icon picker.md",
     "WordPress Development/Button Hover Effect.md",
     "WordPress Development/Previous Next post.md",
     "WP Theme Development/WP enqueue style.md",
@@ -182,7 +184,6 @@
     "WordPress Development/REST Api GET data (Authorize).md",
     "WordPress Development/REST API Subscription data woocommerce.md",
     "WordPress Development/New api.md",
-    "WordPress Development/WP Debug.md",
     "WordPress Development/Woocommerce Subscriptions cancel.md",
     "WordPress Development/User Registration & Membership CSS.md",
     "WordPress Development/WP Login Registration & logout redirect.md",
@@ -191,7 +192,6 @@
     "WordPress Development/WooCommerce Breadcrumb.md",
     "WordPress Development/Get custom field value.md",
     "Untitled.md",
-    "WordPress Development/Scroll To Top.md",
     "Untitled",
     "WP Theme Development",
     "Git",
