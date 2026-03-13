@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel Notes/Install Inertia.md",
-                "mode": "source",
+                "file": "WordPress Development/White page.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Install Inertia"
+              "title": "White page"
             }
           }
         ]
@@ -166,8 +166,17 @@
   },
   "active": "90bc3966061dd2e2",
   "lastOpenFiles": [
-    "WordPress Development/WP Debug.md",
+    "Untitled.md",
+    "WordPress Development/White page.md",
+    "WordPress Development/User create.md",
+    "WordPress Development/Elementor Sticky Scroll.md",
+    "WordPress Development/sku search elementor woocommerce product.md",
+    "Inertia Notes/Inetia defer.md",
+    "Inertia Notes/Controller with Inertia.md",
+    "Inertia Notes/Install Inertia.md",
     "Laravel Notes/Install Inertia.md",
+    "Inertia Notes",
+    "WordPress Development/WP Debug.md",
     "WordPress Development/Elementor Tab active js code.md",
     "WordPress Development/Elementor File Input field.md",
     "WordPress Development/Disable auto update.md",
@@ -184,15 +193,6 @@
     "WordPress Development/REST Api GET data (Authorize).md",
     "WordPress Development/REST API Subscription data woocommerce.md",
     "WordPress Development/New api.md",
-    "WordPress Development/Woocommerce Subscriptions cancel.md",
-    "WordPress Development/User Registration & Membership CSS.md",
-    "WordPress Development/WP Login Registration & logout redirect.md",
-    "WordPress Development/Password hide show icon.md",
-    "WordPress Development/Pagespeed LCP for background image.md",
-    "WordPress Development/WooCommerce Breadcrumb.md",
-    "WordPress Development/Get custom field value.md",
-    "Untitled.md",
-    "Untitled",
     "WP Theme Development",
     "Git",
     "Laravel Notes",
