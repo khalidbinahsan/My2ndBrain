@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WordPress Development/Elementor Pro license.md",
+                "file": "WordPress Development/Remote control wp file.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Elementor Pro license"
+              "title": "Remote control wp file"
             }
           }
         ]
@@ -166,8 +166,9 @@
   },
   "active": "90bc3966061dd2e2",
   "lastOpenFiles": [
-    "WordPress Development/Elementor animation controll css.md",
     "WordPress Development/Elementor Pro license.md",
+    "WordPress Development/Remote control wp file.md",
+    "WordPress Development/Elementor animation controll css.md",
     "Untitled.md",
     "Untitled 1.md",
     "WordPress Development/White page.md",
@@ -192,7 +193,6 @@
     "WP Theme Development/add_theme_support().md",
     "WP Theme Development/bloginfo().md",
     "WP Theme Development/language_attributes().md",
-    "WP Theme Development/Theme Name, Description.md",
     "WP Theme Development",
     "Git",
     "Laravel Notes",
