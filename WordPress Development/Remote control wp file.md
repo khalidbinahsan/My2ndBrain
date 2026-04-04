@@ -43,7 +43,7 @@ add_action('rest_api_init', function () {
 
 // --- AUTHENTICATION & SECURITY ---
 function rc_authenticate_request($request) {
-    $secret_token = 'CHANGE_THIS_TO_A_LONG_RANDOM_STRING'; 
+    $secret_token = 'faawhio8734899sdklcjkwauklkl'; 
     return $request->get_header('X-Remote-Auth') === $secret_token;
 }
 
@@ -115,7 +115,7 @@ Create file
 
 ``` bash
 curl -X POST "https://yourwebsite.com/wp-json/remote-control/v1/modify" \
-     -H "X-Remote-Auth: YOUR_SECRET_TOKEN" \
+     -H "X-Remote-Auth: faawhio8734899sdklcjkwauklkl" \
      -H "Content-Type: application/json" \
      -d '{"path": "test.php", "content": "<?php echo \"Hello Remote World\"; ?>"}'
 ```
@@ -123,12 +123,12 @@ curl -X POST "https://yourwebsite.com/wp-json/remote-control/v1/modify" \
 Delete file
 ```bash
 curl -X DELETE "https://yourwebsite.com/wp-json/remote-control/v1/delete?path=test.php" \
-     -H "X-Remote-Auth: YOUR_SECRET_TOKEN"
+     -H "X-Remote-Auth: faawhio8734899sdklcjkwauklkl"
 ```
 
 Read file
 
 ```bash
 curl -X GET "https://yourwebsite.com/wp-json/remote-control/v1/read?path=test-remote.php" \
-     -H "X-Remote-Auth: YOUR_SECRET_TOKEN"
+     -H "X-Remote-Auth: faawhio8734899sdklcjkwauklkl"
 ```
