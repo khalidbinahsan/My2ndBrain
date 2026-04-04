@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WordPress Development/Remote control wp file.md",
+                "file": "WordPress Development/White page.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Remote control wp file"
+              "title": "White page"
             }
           }
         ]
@@ -166,8 +166,8 @@
   },
   "active": "90bc3966061dd2e2",
   "lastOpenFiles": [
-    "WordPress Development/Elementor Pro license.md",
     "WordPress Development/Remote control wp file.md",
+    "WordPress Development/Elementor Pro license.md",
     "WordPress Development/Elementor animation controll css.md",
     "Untitled.md",
     "Untitled 1.md",

