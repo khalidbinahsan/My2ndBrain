@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "931f8669408dfb4a",
+        "id": "5140344ec4f9b51f",
         "type": "tabs",
         "children": [
           {
-            "id": "90bc3966061dd2e2",
+            "id": "bcc58713923f716b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,17 +164,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90bc3966061dd2e2",
+  "active": "bcc58713923f716b",
   "lastOpenFiles": [
+    "React.js Notes/Install React.md",
+    "React.js Notes",
+    "Vue.js Notes/fetch example.md",
+    "WordPress Development/White page.md",
+    "SQL Query/Select data - Get Data.md",
+    "WordPress Development/sku search elementor woocommerce product.md",
+    "Vue.js Notes/Install Vue.js.md",
+    "Untitled.md",
     "WordPress Development/Remote control wp file.md",
     "WordPress Development/Elementor Pro license.md",
     "WordPress Development/Elementor animation controll css.md",
-    "Untitled.md",
     "Untitled 1.md",
-    "WordPress Development/White page.md",
     "WordPress Development/User create.md",
     "WordPress Development/Elementor Sticky Scroll.md",
-    "WordPress Development/sku search elementor woocommerce product.md",
     "Inertia Notes/Inetia defer.md",
     "Inertia Notes/Controller with Inertia.md",
     "Inertia Notes/Install Inertia.md",
@@ -188,11 +193,6 @@
     "WordPress Development/Button Hover Effect.md",
     "WordPress Development/Previous Next post.md",
     "WP Theme Development/WP enqueue style.md",
-    "WP Theme Development/body_class().md",
-    "WP Theme Development/wp_head() wp_footer().md",
-    "WP Theme Development/add_theme_support().md",
-    "WP Theme Development/bloginfo().md",
-    "WP Theme Development/language_attributes().md",
     "WP Theme Development",
     "Git",
     "Laravel Notes",
@@ -201,7 +201,6 @@
     "PHP Notes",
     "API",
     "Untitled.canvas",
-    "Tailwind Notes",
-    "JS Notes"
+    "Tailwind Notes"
   ]
 }
