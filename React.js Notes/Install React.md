@@ -1,3 +1,5 @@
+**Install React**
+
 ```bash
 npm create vite@latest my-project
 ```
