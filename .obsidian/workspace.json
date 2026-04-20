@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React.js Notes/Install React.md",
+                "file": "Tailwind Notes/Custom Breakpoints.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Install React"
+              "title": "Custom Breakpoints"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel Notes/Laravel Migration.md",
+                "file": "Tailwind Notes/Custom Breakpoints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Laravel Migration"
+              "title": "Backlinks for Custom Breakpoints"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel Notes/Laravel Migration.md",
+                "file": "Tailwind Notes/Custom Breakpoints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Laravel Migration"
+              "title": "Outgoing links from Custom Breakpoints"
             }
           },
           {
@@ -146,11 +146,12 @@
               "title": "Outline of Laravel Migration"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -166,9 +167,10 @@
   },
   "active": "bcc58713923f716b",
   "lastOpenFiles": [
+    "React.js Notes/Install React.md",
+    "Tailwind Notes/Custom Breakpoints.md",
     "WordPress Development/Elementor Animation control CSS.md",
     "WordPress Development/White page.md",
-    "React.js Notes/Install React.md",
     "React.js Notes",
     "Vue.js Notes/fetch example.md",
     "SQL Query/Select data - Get Data.md",
@@ -193,7 +195,6 @@
     "WordPress Development/ACF Icon picker.md",
     "WordPress Development/Button Hover Effect.md",
     "WordPress Development/Previous Next post.md",
-    "WP Theme Development/WP enqueue style.md",
     "WP Theme Development",
     "Git",
     "Laravel Notes",
