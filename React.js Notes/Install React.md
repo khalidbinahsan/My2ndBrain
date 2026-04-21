@@ -39,11 +39,13 @@ npm run dev
 
 To test if it's working, go to `src/App.jsx` and add some Tailwind classes to an element:
 ```js
+import { useState } from 'react'
 function App() {
-  return (
-    <h1 className="text-3xl font-bold underline text-blue-600">
-      Hello world!
-    </h1>
-  )
+  return (
+    <h1 className="text-3xl font-bold underline text-blue-600">
+      Hello world!
+    </h1>
+  )
 }
+export default App
 ```
